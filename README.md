@@ -58,11 +58,15 @@ Type these in Claude's Code tab with your book folder open.
 | --- | --- | --- |
 | Set up | `/setup-book` | Interviews you, then writes your CLAUDE.md, Book Brief and one note per chapter |
 | | `/voice-capture` | Studies your writing and builds your `author-voice` skill |
+| | `/comparable-books` | Researches the books on your shelf: what each does well and the opening it leaves you |
+| | `/validate-problem` | Scores your book's problem: painful, pervasive, priority now, and whether people pay to fix it |
 | Evidence | `/prep-interview Name` | Builds an interview plan aimed at the chapters that need evidence most |
 | | `/ingest-interview Name` | Saves the transcript, codes it by theme, feeds exact quotes into the chapters |
 | | `/ingest-source file` | Reads an article, report or PDF and feeds what's useful into the chapters |
 | | `/research-run` | Collects and codes what your readers say about the problem online |
+| | `/dictation-questions N` | Writes questions you answer out loud, the fastest way to get your own stories in |
 | | `/ingest-author N` | Files your own dictation or voice memos, so no idea gets lost |
+| | `/quote-plan` | Places one key quote, one anchor and at most three interview voices in each chapter |
 | Write | `/brief N` | A one-page plan for chapter N, checked against a quality gate |
 | | `/draft N` | Drafts chapter N from its brief, in your voice |
 | | `/revise N notes` | Applies your notes as a new version; nothing is overwritten |

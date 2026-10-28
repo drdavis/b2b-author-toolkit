@@ -16,5 +16,6 @@ Not started. Run `/setup-book` in Claude's Code tab with this folder open.
 
 ## Links
 - [[Book Blueprint]] · [[Book Brief]] · [[Book Status]] · [[Decisions]] · [[Session Log]] · [[Parking Lot]]
-- [[How We Write This Book]] · [[Chapter Template]] · [[Interview Guide]] · [[Quote Bank]]
+- [[How We Write This Book]] · [[Chapter Template]] · [[Interview Guide]] · [[Quote Bank]] · [[Quote Plan]]
+- [[Comparable Books]] · [[Problem Validation]] · [[Bonus Status]]
 - Dashboard: open `Book Map.base`

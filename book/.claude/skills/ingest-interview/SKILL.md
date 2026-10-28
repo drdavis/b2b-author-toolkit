@@ -16,6 +16,7 @@ Job: ingest the interview with **$ARGUMENTS**.
 5. **Feed the chapter notes.** For each chapter the call serves, add a block under `## From interviews` (`### Name · date · role · consent: ...`, links to transcript and note, quotes with timestamps, story lines). Update `## The chapter pattern` where the call gives an opening story or fills a gap, tick anything in `## Still needed` it settles, and add `"[[YYYY-MM-DD Name|Name]]"` to the chapter's `interviews` property. Ask the author to close the chapter note in Obsidian first.
 6. **Feed the Quote Bank** with the five to eight strongest lines.
 6a. **Update the Book Blueprint:** the person's roster row (status ingested, chapters fed, best line, consent, company), "Interview voices" and "Open with" in each chapter block the call fed, the counts in the Evidence map, any "Ask next" question the call answered, and one Change log line.
+6b. If the call has a stronger key quote or anchor for a chapter than the one in `01 Planning/Quote Plan.md`, say so in your summary and suggest running `/quote-plan`.
 7. **Flag drafted chapters.** If a chapter it fed already has a draft, add `- [ ] Revise draft vN: what the call adds, from Name` to its `## Still needed`.
 8. **Run the quote checker** and fix anything it lists. Report any quote you had to drop.
 

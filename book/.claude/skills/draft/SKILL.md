@@ -11,7 +11,7 @@ Job: draft Chapter **$ARGUMENTS**.
 
 1. Read the chapter note's `## Brief` and `## From the author`, and any Parking Lot rows for this chapter. If there's no brief, stop and tell the author to run `/brief $ARGUMENTS` first.
 2. Use the **author-voice** skill. If it doesn't exist, stop and recommend `/voice-capture`. Follow the chapter pattern in `01 Planning/How We Write This Book.md` and every writing rule in CLAUDE.md.
-3. Use only quotes that exist word for word in this folder. Anonymize online quotes. Name an interviewee only if their consent is yes; otherwise describe them by role. Where the brief has a gap, write `[STORY NEEDED: ...]` in the draft instead of filling it.
+3. Open with the key quote and anchor from this chapter's row in `01 Planning/Quote Plan.md`, and use no more than the supporting voices it lists. Use only quotes that exist word for word in this folder. Anonymize online quotes. Name an interviewee only if their consent is yes; otherwise describe them by role. Where the brief has a gap, write `[STORY NEEDED: ...]` in the draft instead of filling it.
 4. Save to `Drafts/ChNN v1.md` (or the next version; never overwrite) with properties `chapter`, `version`, `date`, `words`, `brief` link and `tags: [book, draft]`.
 5. Don't change the brief. Set the chapter's `layer` to `draft`.
 

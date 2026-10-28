@@ -17,7 +17,8 @@ This folder is the working home of [Author name]'s book. Read this file before d
 - `Book Map.base`: the dashboard. Every chapter, its stage, its interviews and drafts.
 - `Book Blueprint.md`: the whole book on one page. The interview roster, the evidence map and one block per chapter. Read only the section the job needs, never the whole file.
 - `Bonuses/`: reader bonuses (assessments, worksheets, checklists), one file each, tracked in `Bonuses/Bonus Status.md`.
-- `01 Planning/`: Book Brief, Book Status, Decisions, Session Log, Parking Lot, Chapter Template, How We Write This Book.
+- `01 Planning/`: Book Brief, Book Status, Decisions, Session Log, Parking Lot, Chapter Template, How We Write This Book, the Quote Plan (which interview voices go in which chapter) and dictation question sets.
+- `Research/Comparable Books.md` and `Research/Problem Validation.md`: the books already on the shelf, and whether the book's problem is worth a book.
 - `02 Interviews/`: the Interview Guide, one `Prep - Name.md` before each interview, and one note per interview with its coded findings.
 - `Chapters/`: one note per chapter in the shape of `01 Planning/Chapter Template.md`. Drafts never go here.
 - `Drafts/`: `Ch01 v1.md`, `Ch01 v2.md`. Never overwrite an earlier version.

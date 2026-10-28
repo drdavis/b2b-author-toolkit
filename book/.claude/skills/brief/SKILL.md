@@ -9,7 +9,7 @@ Before anything else, read `00 Start Here.md`, `01 Planning/Decisions.md`, `01 P
 
 Job: write the brief for Chapter **$ARGUMENTS**. Don't draft the chapter.
 
-Use the chapter note: start from `## The chapter pattern`, then draw on `## From interviews`, `## From research` and `## From the author`, plus the Quote Bank and any Parking Lot rows for this chapter (mark a row "used in ChNN brief" when you pull it in). Prefer interview and author stories over online ones where both exist. Name an interviewee only if their consent is yes. Fill the `## Brief` section:
+Use the chapter note: start from `## The chapter pattern`, then draw on `## From interviews`, `## From research` and `## From the author`, plus the Quote Bank and any Parking Lot rows for this chapter (mark a row "used in ChNN brief" when you pull it in). Follow this chapter's row in `01 Planning/Quote Plan.md` (key quote, anchor, supporting voices) if it has one. Prefer interview and author stories over online ones where both exist. Name an interviewee only if their consent is yes. Fill the `## Brief` section:
 
 - **The one idea** (one sentence)
 - **Opening story** (who, what happened, source file) or `[STORY NEEDED: ...]`
