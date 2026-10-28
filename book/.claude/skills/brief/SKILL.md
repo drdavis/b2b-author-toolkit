@@ -17,6 +17,7 @@ Use the chapter note: start from `## The chapter pattern`, then draw on `## From
 - **How it works** the steps, and the worked example
 - **This week** one action under an hour
 - **The takeaway** one line
+- **Bonus** what the reader gets for this chapter, if anything (add new ideas to `Bonuses/Bonus Status.md`)
 - **Gaps** anything marked `[STORY NEEDED]` or `[EVIDENCE NEEDED]`
 
 Check the brief against the quality gate in `01 Planning/How We Write This Book.md` and say whether it passes, and why not if it doesn't. Set the chapter's `layer` to `brief`.

@@ -4,6 +4,14 @@
 
 ---
 
+### Watch the 9-minute walkthrough
+
+[![Building a Second Brain for Book Writing: a walkthrough of the system on a real book in progress](https://cdn.loom.com/sessions/thumbnails/5b2607352bca46a8b98e8dc09b9dde67-481012f22602317e.gif)](https://www.loom.com/share/5b2607352bca46a8b98e8dc09b9dde67)
+
+This shows my own book, early in the process. The kit is a cleaned-up, general version of it, so a few folders and names differ.
+
+---
+
 ## I have Claude. Now what?
 
 Most experts who sit down to write a book with AI hit the same wall. You open a chat, explain your idea, get something back that sounds like everyone else's business book, and next week you start over because Claude has forgotten all of it. The problem isn't Claude. It's that there's no system around it.
@@ -16,7 +24,8 @@ Here's what you get:
 - **Your voice as a skill.** `/voice-capture` studies how you actually write and talk, then builds a voice profile Claude uses for every draft. You score it until it sounds like you.
 - **An evidence system.** Interviews, sources and online research get coded by theme and filed into the chapters they serve, with exact quotes and timestamps. A quote checker proves every quote matches its source.
 - **A writing pipeline.** Every chapter moves through the same layers: evidence, voice, brief, draft, revised, checked. One shortcut per step.
-- **A map you can see.** A dashboard of every chapter and where it stands, plus a mind map of how your chapters, interviews and sources connect, inside Obsidian.
+- **A map you can see.** A Book Blueprint at the center, a dashboard of every chapter and where it stands, and a mind map of how your chapters, interviews and sources connect, inside Obsidian.
+- **A place for every idea.** A Parking Lot so nothing you say gets lost, and a Bonuses area that collects reader bonus ideas as they come up.
 
 It's built on [Andrej Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): raw sources you never touch, and a set of linked notes Claude maintains on top of them. I took that idea and shaped it around how a nonfiction book really gets made.
 
@@ -58,6 +67,7 @@ Type these in Claude's Code tab with your book folder open.
 | | `/draft N` | Drafts chapter N from its brief, in your voice |
 | | `/revise N notes` | Applies your notes as a new version; nothing is overwritten |
 | | `/check-chapter N` | An independent agent checks every quote, number and rule |
+| | `/bonus Name` | Plans or builds a reader bonus: an assessment, worksheet or checklist |
 | Run it | `/status` | Where the book stands and the single most useful next step |
 | | `/wrap` | Ends the session and updates the status pages and log |
 | | `/lint` | Monthly health check: gaps, contradictions, loose ends |

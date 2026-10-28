@@ -27,6 +27,7 @@ Job: set this folder up for the author's book. Run once, at the start.
    - every [bracketed] part of `CLAUDE.md` (the book paragraph, writing rules, theme codes, the author's name);
    - one note per chapter in `Chapters/`, named `ChNN Short title.md`, from the template in `01 Planning/Chapter Template.md`, with `chapter`, `part`, `write_order` and the one-sentence job filled in and `layer: evidence`;
    - one row per chapter in `01 Planning/Book Status.md`;
+   - one block per chapter in `Book Blueprint.md` (under `## Chapters`, in the shape shown there), a row per chapter in its Evidence map, and a row in the Interview roster for anyone they named as a possible interviewee (status: to invite);
    - the first decisions (title, reader, chapter order) in `01 Planning/Decisions.md` with today's date.
 5. If the author keeps more than one book in the same Obsidian vault, ask for a short tag for this book (like `book-referrals`) and replace the `book` tag in every note and in `Book Map.base`.
 

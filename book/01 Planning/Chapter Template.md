@@ -5,7 +5,7 @@ tags: [book, control, template]
 ---
 # Chapter Template
 
-Every note in `Chapters/` uses this shape, so each chapter grows the same way and every shortcut knows where things go.
+Every note in `Chapters/` uses this shape, so each chapter grows the same way and every shortcut knows where things go. The [[Book Blueprint]] shows one short block per chapter; the chapter note holds the full material.
 
 **How a chapter note grows**
 
@@ -16,7 +16,7 @@ Every note in `Chapters/` uses this shape, so each chapter grows the same way an
 | The author records or dictates | `## From the author` | `/ingest-author N` |
 | The chapter is briefed | `## Brief` | `/brief N` |
 | A draft is written or revised | `Drafts/ChNN vX.md` (never this note) and the `layer` property | `/draft N`, `/revise N` |
-| Any session ends | the `layer` and `updated` properties | `/wrap` |
+| Any session ends | the `layer` and `updated` properties, and the chapter's block in the Book Blueprint | `/wrap` |
 
 Rules for every section:
 - Quotes are exact words, with the source file. Interview quotes also carry the transcript timestamp, like `[07:23]`.
@@ -32,7 +32,7 @@ Copy everything below this line into a new chapter note.
 
 ```markdown
 ---
-up: "[[00 Start Here]]"
+up: "[[Book Blueprint]]"
 chapter: N
 part: 1
 layer: evidence        # evidence > voice > brief > draft > revised > checked

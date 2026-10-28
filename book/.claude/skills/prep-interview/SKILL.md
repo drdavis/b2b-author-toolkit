@@ -9,7 +9,7 @@ Before anything else, read `00 Start Here.md`, `01 Planning/Decisions.md`, `01 P
 
 Job: prepare for the interview with **$ARGUMENTS**.
 
-1. From `Book Status.md` and each chapter note's `## Still needed`, list the chapters with the biggest evidence gaps, starting with those next in the writing order.
+1. From the Book Blueprint's Evidence map and each chapter block's "Biggest gap" and "Ask next" lines (never the whole file), plus each chapter note's `## Still needed`, list the chapters with the biggest evidence gaps, starting with those next in the writing order.
 2. Read anything the author wrote about this person after their name, and any earlier notes on them.
 3. Write `02 Interviews/Prep - Name.md` with:
    - **Who they are** and why they're worth the time, in two lines. Mark anything unknown "[author to add]".
@@ -17,6 +17,7 @@ Job: prepare for the interview with **$ARGUMENTS**.
    - **The questions:** `02 Interviews/Interview Guide.md`, copied in order.
    - **Add lines:** under the guide question they belong to, one to three optional follow-ups per target chapter, marked `*Add (ChN):*`, worded so they never presume a problem.
    - **What the book hopes to hear:** one line per target chapter.
-4. Don't change any chapter note.
+4. Add or update the person's row in the Blueprint's Interview roster: status scheduled, and the chapters this call targets.
+5. Don't change any chapter note.
 
 When finished, add one line to the Session Log. Tell the author in three lines or fewer which chapters this call targets and the one story to listen for.

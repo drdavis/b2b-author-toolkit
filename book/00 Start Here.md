@@ -15,6 +15,6 @@ Not started. Run `/setup-book` in Claude's Code tab with this folder open.
 3. Add your first material to `Research/` and run `/ingest-source`, `/ingest-interview` or `/ingest-author`.
 
 ## Links
-- [[Book Brief]] · [[Book Status]] · [[Decisions]] · [[Session Log]] · [[Parking Lot]]
+- [[Book Blueprint]] · [[Book Brief]] · [[Book Status]] · [[Decisions]] · [[Session Log]] · [[Parking Lot]]
 - [[How We Write This Book]] · [[Chapter Template]] · [[Interview Guide]] · [[Quote Bank]]
 - Dashboard: open `Book Map.base`

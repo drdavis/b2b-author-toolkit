@@ -7,14 +7,16 @@ This folder is the working home of [Author name]'s book. Read this file before d
 
 ## Start every session here
 1. Read this file, then `00 Start Here.md`, `01 Planning/Decisions.md`, `01 Planning/Book Status.md` and the last five lines of `01 Planning/Session Log.md`.
-2. Keep the context small. In chapter notes, read only the sections the job needs. Never read a full transcript: search it. Read only the latest draft of the chapter in hand.
+2. Keep the context small. In the Book Blueprint, read only the roster or the block for the chapter in hand. In chapter notes, read only the sections the job needs. Never read a full transcript: search it. Read only the latest draft of the chapter in hand.
 3. Do one unit of work only (ingest, brief, draft, revise, check). The shortcuts are in `.claude/skills/`.
 4. Don't reopen anything in `Decisions.md` unless [Author name] asks.
-5. Before finishing, update `00 Start Here.md`, `Book Status.md` and the chapter note's properties, and add one line to the Session Log: date | job | what was done | where it stopped | next.
+5. Before finishing, update `00 Start Here.md`, `Book Status.md`, the chapter's Blueprint block and the chapter note's properties, and add one line to the Session Log: date | job | what was done | where it stopped | next.
 
 ## Where things are
 - `00 Start Here.md`: the one-page handoff. Where the book stands and what's next.
 - `Book Map.base`: the dashboard. Every chapter, its stage, its interviews and drafts.
+- `Book Blueprint.md`: the whole book on one page. The interview roster, the evidence map and one block per chapter. Read only the section the job needs, never the whole file.
+- `Bonuses/`: reader bonuses (assessments, worksheets, checklists), one file each, tracked in `Bonuses/Bonus Status.md`.
 - `01 Planning/`: Book Brief, Book Status, Decisions, Session Log, Parking Lot, Chapter Template, How We Write This Book.
 - `02 Interviews/`: the Interview Guide, one `Prep - Name.md` before each interview, and one note per interview with its coded findings.
 - `Chapters/`: one note per chapter in the shape of `01 Planning/Chapter Template.md`. Drafts never go here.

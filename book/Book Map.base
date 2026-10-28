@@ -69,6 +69,7 @@ views:
     order:
       - file.name
       - interviewee
+      - company
       - date
       - consent
       - role
@@ -76,6 +77,16 @@ views:
     sort:
       - property: date
         direction: ASC
+  - type: table
+    name: Bonuses
+    filters:
+      and:
+        - file.hasTag("bonus")
+    order:
+      - file.name
+      - status
+      - chapters
+      - formula.linked_from
   - type: table
     name: Sources
     filters:

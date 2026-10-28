@@ -2,6 +2,8 @@
 
 Every click, from "I have Claude" to your first chapter brief. Plan on about 90 minutes, spread over a couple of sittings if you like.
 
+If you'd like to see the system working on a real book first, watch the [9-minute walkthrough](https://www.loom.com/share/5b2607352bca46a8b98e8dc09b9dde67).
+
 ## 1. Install Claude and find the Code tab (10 min)
 
 1. Download the Claude desktop app from [claude.ai/download](https://claude.ai/download), install it and sign in. You need a paid plan (Pro or Max) for the Code tab.

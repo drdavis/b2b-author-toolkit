@@ -22,6 +22,12 @@ flowchart LR
 
 `CLAUDE.md` sits over all of it: the book, the reader, the rules. Claude reads it every session.
 
+Claude Code also keeps a memory file of its own, outside this folder, where it saves things it learns about how you like to work (a correction you gave it, a preference you stated). You don't need to set it up, and it doesn't come with the download. The two work together: CLAUDE.md holds the rules of the book, memory holds what Claude has learned about working with you. To see or edit it, type `/memory` in the Code tab.
+
+## Why a folder and not a chat
+
+A chat holds everything in Claude's working memory at once, and a book outgrows that fast. Every transcript, draft and note you paste in takes up room, and once it fills, Claude starts losing track of things from earlier in the conversation. The folder fixes that. Claude reads only what the job in front of it needs (one chapter's block in the Blueprint, the sections of one chapter note, the latest draft) and leaves the rest on disk until it's needed. That's why the shortcuts are so specific about what to read, and why one job per session matters.
+
 ## The six layers a chapter moves through
 
 ```mermaid
