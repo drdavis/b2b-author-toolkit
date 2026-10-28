@@ -1,0 +1,89 @@
+filters:
+  and:
+    - file.hasTag("book")
+formulas:
+  interview_count: if(interviews, interviews.length, 0)
+  linked_from: file.backlinks.length
+properties:
+  formula.interview_count:
+    displayName: "# interviews"
+  formula.linked_from:
+    displayName: "linked from"
+  layer:
+    displayName: stage
+views:
+  - type: table
+    name: Chapters
+    filters:
+      and:
+        - file.hasTag("chapter")
+    order:
+      - file.name
+      - chapter
+      - part
+      - layer
+      - write_order
+      - formula.interview_count
+      - interviews
+      - updated
+    sort:
+      - property: chapter
+        direction: ASC
+  - type: table
+    name: Pipeline by stage
+    filters:
+      and:
+        - file.hasTag("chapter")
+    groupBy:
+      property: layer
+      direction: ASC
+    order:
+      - file.name
+      - chapter
+      - write_order
+      - updated
+    sort:
+      - property: write_order
+        direction: ASC
+  - type: table
+    name: Drafts
+    filters:
+      and:
+        - file.hasTag("draft")
+    order:
+      - file.name
+      - chapter
+      - version
+      - words
+      - date
+    sort:
+      - property: chapter
+        direction: ASC
+      - property: version
+        direction: DESC
+  - type: table
+    name: Interviews
+    filters:
+      and:
+        - file.hasTag("interview")
+    order:
+      - file.name
+      - interviewee
+      - date
+      - consent
+      - role
+      - formula.linked_from
+    sort:
+      - property: date
+        direction: ASC
+  - type: table
+    name: Sources
+    filters:
+      and:
+        - file.hasTag("source")
+    order:
+      - file.name
+      - author
+      - date
+      - chapters
+      - formula.linked_from
