@@ -17,15 +17,8 @@ Job: build the author's voice profile and save it as a skill Claude uses wheneve
    - Is there a metaphor, phrase or story you use all the time?
    - Read this paragraph [write one generic paragraph on their topic]. What's wrong with it?
 3. **Analyze.** From the samples and answers, work out: register (how formal), sentence rhythm, signature openers, connectors and filler words they actually use, vocabulary that's theirs, words and habits they refuse, how they structure an argument, how they close, and the drift signals that mean a draft has stopped sounding like them. Quote their real sentences as evidence; never invent an example and present it as theirs.
-4. **Write the skill** to `.claude/skills/author-voice/SKILL.md`:
-   ```
-   ---
-   name: author-voice
-   description: Write in [Author name]'s voice. Use whenever drafting or revising chapters, bonuses or anything published under their name.
-   ---
-   ```
-   Then these sections: Audience · Register · Signature openers · Refused words and phrases · Rhythm · Vocabulary fingerprints · Connectors · How they build an argument · Formatting habits · Human moments to keep · Drift signals · One anchor passage (their real words, from a sample, with the file it came from) · How to use this skill.
-5. **Test it.** Rewrite the generic paragraph from step 2 using the new skill. Ask the author to score it from 1 to 10 and say what's off. Fix the profile and try again until they score it 8 or higher. Note the final score at the bottom of the skill with today's date.
+4. **Write the skill.** Fill in `.claude/skills/voice-capture/voice-profile-template.md` section by section and save the result as `.claude/skills/author-voice/SKILL.md`. Every section quotes the author's real sentences as evidence. Where there isn't enough evidence for a section yet, say so in that section and ask for another sample rather than guessing.
+5. **Test it.** Rewrite the generic paragraph from step 2 using the new skill. Ask the author to score it from 1 to 10 and say what's off. Fix the profile and try again until they score it 8 or higher. Record each round in the skill's `## Test record` with the date and score.
 6. Add a line to `01 Planning/Decisions.md`: voice profile built, the date, and "re-run every six months or after a positioning shift".
 
 When finished, update `01 Planning/Book Status.md` and `00 Start Here.md`, and add one line to `01 Planning/Session Log.md` (date | job | what was done | where it stopped | next). Then tell the author in three lines or fewer what you did and what comes next.

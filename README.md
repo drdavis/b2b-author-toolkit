@@ -78,4 +78,7 @@ These are built in, because a business book lives or dies on trust:
 
 Built by Don Davis, D3 Digital Media Marketing, while writing *Too Good to Be a Secret: How Consultants and Fractional Executives Become the Expert Buyers, Colleagues and AI Recommend*. If you build your book with it, I'd like to hear how it went.
 
+- **Connect with me on LinkedIn:** [linkedin.com/in/dondavis](https://www.linkedin.com/in/dondavis/)
+- **Want to go further with content systems?** Join my Skool community: [skool.com/visibility-7361](https://www.skool.com/visibility-7361/about)
+
 Released under the [MIT License](LICENSE).

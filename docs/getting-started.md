@@ -53,7 +53,7 @@ Claude interviews you one question at a time: the reader, the problem they haven
 1. Put three to six pieces of your own writing in `Research/Author/Samples/`. Mix them: a client email, a LinkedIn post, an article, a podcast or talk transcript. Unedited is better. Nothing ghostwritten.
 2. Type `/voice-capture`.
 
-Claude studies the samples, asks you a few questions about how you sound, and builds a skill called `author-voice`. Then it rewrites a paragraph and asks you to score it from 1 to 10. Keep going until it's an 8 or better. Every draft from now on uses it.
+Claude studies the samples, asks you a few questions about how you sound, and builds a skill called `author-voice`. Then it rewrites a paragraph and asks you to score it from 1 to 10. Keep going until it's an 8 or better. Every draft from now on uses it. The profile follows a fixed structure (register, rhythm, signature openers, refused words, how you build an argument, drift signals, an anchor passage and more), which you can read in `.claude/skills/voice-capture/voice-profile-template.md`.
 
 ## 6. Add the visual layer (10 min)
 
