@@ -13,6 +13,7 @@ Job: draft Chapter **$ARGUMENTS**.
 2. Use the **author-voice** skill. If it doesn't exist, stop and recommend `/voice-capture`. Follow the chapter pattern in `01 Planning/How We Write This Book.md` and every writing rule in CLAUDE.md.
 3. Open with the key quote and anchor from this chapter's row in `01 Planning/Quote Plan.md`, and use no more than the supporting voices it lists. Use only quotes that exist word for word in this folder. Anonymize online quotes. Name an interviewee only if their consent is yes; otherwise describe them by role. Where the brief has a gap, write `[STORY NEEDED: ...]` in the draft instead of filling it.
 4. Save to `Drafts/ChNN v1.md` (or the next version; never overwrite) with properties `chapter`, `version`, `date`, `words`, `brief` link and `tags: [book, draft]`.
+4b. AI-tells pass: read the draft against `.claude/skills/check-chapter/ai-tells.md` and fix what you find in your own prose (never inside quotes; the author-voice skill wins). Run `python3 -I .claude/skills/check-chapter/ai_tells.py "$PWD" "Drafts/<the new file>"` and clear every "to fix" line, or keep it on purpose and say why in the draft's notes.
 5. Don't change the brief. Set the chapter's `layer` to `draft`.
 
 When finished, update `01 Planning/Book Status.md` and `00 Start Here.md`, and add one line to `01 Planning/Session Log.md` (date | job | what was done | where it stopped | next). Then tell the author in three lines or fewer what you did and what comes next. Recommend `/check-chapter` next.

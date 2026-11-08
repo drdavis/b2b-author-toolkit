@@ -12,6 +12,7 @@ Job: revise the latest draft of Chapter **$0** using the author's notes (everyth
 1. Find the highest version in `Drafts/` for this chapter.
 2. Apply the notes, using the **author-voice** skill. Keep everything else unless the notes say otherwise.
 3. Save as the next version; never overwrite. At the top, list what changed.
+3b. AI-tells pass on the new version, as in `/draft` step 4b (`ai-tells.md` and `ai_tells.py` in `.claude/skills/check-chapter/`). For a cleanup pass on an older draft, run `/revise N AI-tells pass`.
 4. Set the chapter's `layer` to `revised`.
 
 When finished, update `01 Planning/Book Status.md` and `00 Start Here.md`, and add one line to `01 Planning/Session Log.md` (date | job | what was done | where it stopped | next). Then tell the author in three lines or fewer what you did and what comes next.

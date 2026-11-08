@@ -87,6 +87,7 @@ These are built in, because a business book lives or dies on trust:
 - Nothing is invented. A missing story becomes `[STORY NEEDED]`, not a made-up client.
 - Raw material is never edited. Drafts are never overwritten.
 - Every statistic gets a date.
+- No AI slop. Every draft is checked against 24 AI writing tells (staged contrasts, one-line closers, stock words like "delve" and "crucial", dashes everywhere), and a scan flags the ones a script can find. The list is adapted from Siqi Chen's [humanizer](https://github.com/blader/humanizer) (MIT), which draws on Wikipedia's "Signs of AI writing".
 
 ## About
 

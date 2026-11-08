@@ -13,6 +13,7 @@ Report, in this order:
 2. **Names.** Every interviewee named in the draft: does their interview note show consent yes? List any that don't.
 3. **Numbers.** Every statistic or figure: does it have a date and a source? List any that don't.
 4. **Rule breaks.** Anything CLAUDE.md's writing rules forbid: banned words, punctuation habits, pitches, screenshots, menu paths, prices.
+4b. **AI tells.** Read `.claude/skills/check-chapter/ai-tells.md` and list every sighting in the prose (never inside quotes): pattern number, the line, and a one-line plain fix. Patterns 1 to 5 count on one sighting; weak ones only in clusters. Focus on what a word scan misses: forced triads, closers after a story, repeated openings, staged contrasts.
 5. **Durability.** Any main claim that wouldn't have been true five years ago or may not be true five years from now.
 6. **Pattern.** Is each part of the chapter pattern present?
 

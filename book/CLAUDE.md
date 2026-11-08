@@ -28,6 +28,7 @@ This folder is the working home of [Author name]'s book. Read this file before d
 ## Writing rules
 - The author's voice: use the `author-voice` skill (built by `/voice-capture`). If it doesn't exist yet, say so before drafting.
 - [Words and habits the author never uses. For example: no em dashes, no exclamation points, no hype words such as unlock, transform, elevate, game-changer.]
+- No AI tells. Before saving any draft, check it against `.claude/skills/check-chapter/ai-tells.md` and run `python3 -I .claude/skills/check-chapter/ai_tells.py "$PWD" "Drafts/<file>"`. The author-voice skill and exact quotes win over the list.
 - Every chapter follows the chapter pattern in `01 Planning/How We Write This Book.md`.
 - Durability test: would the chapter's main claim have been true five years ago and still be true five years from now? If not, it belongs in an online companion, not the printed book. No screenshots, menu paths or prices in print.
 - Date every statistic.
