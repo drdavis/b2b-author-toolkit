@@ -1,13 +1,13 @@
 ---
 name: setup-book
-description: First-time setup. Interview the author about the book, then fill in CLAUDE.md, the Book Brief and one note per chapter
+description: Turn the mind map into the outline. Interview the author about the book, then fill in CLAUDE.md, the Book Brief and one note per chapter
 disable-model-invocation: true
 ---
 
-Job: set this folder up for the author's book. Run once, at the start.
+Job: set this folder up for the author's book and write its outline. Run once, after `/mind-map`. The order is mind map, outline, then write or dictate the chapters.
 
-1. Read `CLAUDE.md`, `01 Planning/Book Brief.md`, `01 Planning/Chapter Template.md` and `01 Planning/How We Write This Book.md`.
-2. **Interview the author, one question at a time.** Wait for each answer before asking the next. Ask follow-ups when an answer is vague; a well-defined answer beats a fast one. Cover, in this order:
+1. Read `CLAUDE.md`, `01 Planning/Book Brief.md`, `01 Planning/Chapter Template.md` and `01 Planning/How We Write This Book.md`. Also read `01 Planning/Book Mind Map.canvas` if it exists. If it doesn't, suggest running `/mind-map` first, and go ahead without it only if the author wants to.
+2. **Interview the author, one question at a time.** Wait for each answer before asking the next. Ask follow-ups when an answer is vague; a well-defined answer beats a fast one. Skip any question the mind map already answers clearly, and confirm those answers in the summary instead. Cover, in this order:
    - their name, their work and who they do it for;
    - the working title and subtitle (fine if they don't have one yet);
    - the reader: who they are, what stage they're at, what they've tried;
@@ -28,7 +28,8 @@ Job: set this folder up for the author's book. Run once, at the start.
    - one note per chapter in `Chapters/`, named `ChNN Short title.md`, from the template in `01 Planning/Chapter Template.md`, with `chapter`, `part`, `write_order` and the one-sentence job filled in and `layer: evidence`;
    - one row per chapter in `01 Planning/Book Status.md`;
    - one block per chapter in `Book Blueprint.md` (under `## Chapters`, in the shape shown there), a row per chapter in its Evidence map, and a row in the Interview roster for anyone they named as a possible interviewee (status: to invite);
-   - the first decisions (title, reader, chapter order) in `01 Planning/Decisions.md` with today's date.
+   - the first decisions (title, reader, chapter order) in `01 Planning/Decisions.md` with today's date;
+   - if the title is settled, `Buy the domain for the title` as the first item in Next in order in `00 Start Here.md`, and tell the author why (see `01 Planning/How We Write This Book.md`).
 5. If the author keeps more than one book in the same Obsidian vault, ask for a short tag for this book (like `book-referrals`) and replace the `book` tag in every note and in `Book Map.base`.
 
 When finished, update `01 Planning/Book Status.md` and `00 Start Here.md`, and add one line to `01 Planning/Session Log.md` (date | job | what was done | where it stopped | next). Then tell the author in three lines or fewer what you did and what comes next. Recommend `/voice-capture` as the next step.

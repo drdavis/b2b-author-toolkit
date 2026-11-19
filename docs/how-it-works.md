@@ -28,6 +28,15 @@ Claude Code also keeps a memory file of its own, outside this folder, where it s
 
 A chat holds everything in Claude's working memory at once, and a book outgrows that fast. Every transcript, draft and note you paste in takes up room, and once it fills, Claude starts losing track of things from earlier in the conversation. The folder fixes that. Claude reads only what the job in front of it needs (one chapter's block in the Blueprint, the sections of one chapter note, the latest draft) and leaves the rest on disk until it's needed. That's why the shortcuts are so specific about what to read, and why one job per session matters.
 
+## Mind map, outline, then write or dictate
+
+```mermaid
+flowchart LR
+  M["Mind map<br/>/mind-map"] --> O["Outline<br/>/setup-book"] --> W["Write or dictate<br/>each chapter"]
+```
+
+Most books start as a pile of ideas. `/mind-map` gets the pile onto one page first, as an Obsidian Canvas you can see and rearrange, with anything still unsettled marked as a question. `/setup-book` turns that page into the outline: the chapter notes, the Blueprint and the status table. Then each chapter gets filled by writing, dictating, interviewing or teaching it live in a workshop, and moves through the six layers below.
+
 ## The six layers a chapter moves through
 
 ```mermaid

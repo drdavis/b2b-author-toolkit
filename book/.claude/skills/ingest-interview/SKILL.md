@@ -1,7 +1,7 @@
 ---
 name: ingest-interview
-description: Bring an interview transcript into the book, code it by theme, and feed exact quotes into the chapter notes
-argument-hint: "[person name]"
+description: Bring an interview or workshop transcript into the book, code it by theme, and feed exact quotes into the chapter notes
+argument-hint: "[person name, or workshop name]"
 disable-model-invocation: true
 ---
 
@@ -10,6 +10,7 @@ Before anything else, read `00 Start Here.md`, `01 Planning/Decisions.md`, `01 P
 Job: ingest the interview with **$ARGUMENTS**.
 
 1. **Find the transcript.** Look in `Research/Transcripts/`, or use the recording tool connected to this session (Fireflies, Zoom, Otter) if there is one. If nothing is found, ask the author to export it and drop it in `Research/Transcripts/`. If `02 Interviews/Prep - $ARGUMENTS.md` exists, read it: it lists the gaps this call was meant to fill.
+1a. **A workshop recording** goes through the same steps, named after the workshop (like `Workshop 1`) in place of a person. The author's own stories and arguments from it go to each chapter's `## From the author`, filed as `/ingest-author` would file them. Attendees are quoted by role, exact words only. Record `consent_to_quote` per person; it's yes only for someone who said yes in writing.
 2. **Save the transcript** as `Research/Transcripts/YYYY-MM-DD Name.md`, word for word, one line per turn in the shape `[mm:ss - mm:ss] Speaker: words` (convert the tool's format; never change the words). Add properties: `date`, `people`, `recording` link, `consent_to_quote` (yes, no, or "to confirm" if it isn't in the call), `interview_note` link, `tags: [book, transcript]`, and the line "Raw source. Do not edit."
 3. **Write the interview note** `02 Interviews/YYYY-MM-DD Name.md` with properties (`interviewee`, `company`, `role`, `date`, `transcript` link, `consent`, `tags: [book, interview]`), then five reflection questions marked "draft for the author": what surprised you, what mattered most to them, what a transcript can't capture, what challenged or confirmed your thinking, what else to remember. Draft them from the transcript; never invent the author's reactions.
 4. **Code the call.** Add `## Coded findings` to the interview note: a table of # | Exact words | Time | Theme | Reader fit | Chapters | Use, then `### Stories`, one line each with its start time. Quotes are exact words with the timestamp of the line they start on. Aim for 12 to 25 findings. The **research-coder** agent can do the first pass.
