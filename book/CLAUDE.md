@@ -17,7 +17,7 @@ This folder is the working home of [Author name]'s book. Read this file before d
 - `Book Map.base`: the dashboard. Every chapter, its stage, its interviews and drafts.
 - `Book Blueprint.md`: the whole book on one page. The interview roster, the evidence map and one block per chapter. Read only the section the job needs, never the whole file.
 - `Bonuses/`: reader bonuses (assessments, worksheets, checklists), one file each, tracked in `Bonuses/Bonus Status.md`.
-- `01 Planning/`: Book Brief, Book Status, Decisions, Session Log, Parking Lot, Chapter Template, How We Write This Book, the Quote Plan (which interview voices go in which chapter) and dictation question sets.
+- `01 Planning/`: the Book Mind Map (`Book Mind Map.canvas`, the whole book on one page, made by `/mind-map`), Book Brief, Book Status, Decisions, Session Log, Parking Lot, Chapter Template, How We Write This Book, the Quote Plan (which interview voices go in which chapter) and dictation question sets.
 - `Research/Comparable Books.md` and `Research/Problem Validation.md`: the books already on the shelf, and whether the book's problem is worth a book.
 - `02 Interviews/`: the Interview Guide, one `Prep - Name.md` before each interview, and one note per interview with its coded findings.
 - `Chapters/`: one note per chapter in the shape of `01 Planning/Chapter Template.md`. Drafts never go here.
@@ -50,3 +50,4 @@ A [theme]; B [theme]; C [theme]; D [theme]; E [theme]; F [theme]; G [theme]; H [
 ## Working with Claude
 - Never use subagents to draft chapter prose. Use them for coding research and checking drafts.
 - Ask before deleting or moving anything.
+- When the title is settled (a title row goes into `Decisions.md`), tell [Author name] to buy the domain for it that day, before the title is said in public, and keep it first in Next in order in `00 Start Here.md` until they confirm. The website can come later.

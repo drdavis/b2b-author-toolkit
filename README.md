@@ -21,10 +21,11 @@ The reality is, a business book is a project with a lot of moving parts: intervi
 Here's what you get:
 
 - **A book folder Claude reads every session.** It already knows your reader, your framework, your rules and where you left off. You explain it once.
+- **A mind map before the outline.** `/mind-map` puts the whole book on one page in Obsidian, so you see its shape before you commit to chapters. `/setup-book` then turns the map into your outline.
 - **Your voice as a skill.** `/voice-capture` studies how you actually write and talk, then builds a voice profile Claude uses for every draft. You score it until it sounds like you.
 - **An evidence system.** Interviews, sources and online research get coded by theme and filed into the chapters they serve, with exact quotes and timestamps. A quote checker proves every quote matches its source.
 - **A writing pipeline.** Every chapter moves through the same layers: evidence, voice, brief, draft, revised, checked. One shortcut per step.
-- **A map you can see.** A Book Blueprint at the center, a dashboard of every chapter and where it stands, and a mind map of how your chapters, interviews and sources connect, inside Obsidian.
+- **A book you can see.** A Book Blueprint at the center, a dashboard of every chapter and where it stands, and a connections view of how your chapters, interviews and sources link up, inside Obsidian.
 - **A place for every idea.** A Parking Lot so nothing you say gets lost, and a Bonuses area that collects reader bonus ideas as they come up.
 
 It's built on [Andrej Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): raw sources you never touch, and a set of linked notes Claude maintains on top of them. I took that idea and shaped it around how a nonfiction book really gets made.
@@ -39,16 +40,25 @@ It isn't a ghostwriter. It won't write your book from a prompt. It organizes the
 
 - A paid Claude plan (Pro or Max) and the Claude desktop app, from [claude.ai/download](https://claude.ai/download). You'll use its **Code** tab. You won't write any code; it just means Claude can work inside a folder on your computer.
 - [Obsidian](https://obsidian.md), free. This is where you read, browse and see the map.
-- About 90 minutes for setup.
+- About 90 minutes to two hours for setup.
 
 ## Get started
 
 1. **Download this toolkit.** Click the green **Code** button at the top of this page, then **Download ZIP**, and unzip it. (Or `git clone` it if you know how.)
 2. **Copy the `book` folder into your Obsidian vault** and rename it after your book. It contains a hidden `.claude` folder with all the shortcuts; copying the folder brings it along.
-3. **Open that folder in Claude's Code tab** and type `/setup-book`. Claude interviews you about the book, one question at a time, and fills everything in.
-4. **Run `/voice-capture`** so every draft sounds like you.
+3. **Open that folder in Claude's Code tab** and type `/mind-map`. Talk through everything you know about the book, in any order, and Claude puts it on one page.
+4. **Type `/setup-book`.** Claude turns the map into an outline, asks only what the map didn't answer, and fills everything in.
+5. **Run `/voice-capture`** so every draft sounds like you.
 
 The full walkthrough, with every click, is in **[docs/getting-started.md](docs/getting-started.md)**.
+
+## Mind map, outline, then write or dictate
+
+That's the order the toolkit follows. Map the whole book on one page, turn the map into an outline, then fill each chapter whichever way suits you: write it, dictate it, interview people for it, or teach it live in a workshop and bring the recording in. Some experts think best with an audience in front of them, and a few workshops, one per part of the book, can fill many of the gaps only you can fill.
+
+One thing not to put off: the day you settle on a title, buy the domain for it, before anyone hears the title in public. Once a title is out, someone can register it first, and you're left with a second-best address for your book. The author website can come later.
+
+The details, including how to run a workshop, are in **[How We Write This Book](book/01%20Planning/How%20We%20Write%20This%20Book.md)**.
 
 ## The shortcuts
 
@@ -56,12 +66,13 @@ Type these in Claude's Code tab with your book folder open.
 
 | Stage | Shortcut | What it does |
 | --- | --- | --- |
-| Set up | `/setup-book` | Interviews you, then writes your CLAUDE.md, Book Brief and one note per chapter |
+| Set up | `/mind-map` | Puts the whole book on one page, as an Obsidian Canvas, before the outline |
+| | `/setup-book` | Turns the map into your outline: interviews you for the rest, then writes your CLAUDE.md, Book Brief and one note per chapter |
 | | `/voice-capture` | Studies your writing and builds your `author-voice` skill |
 | | `/comparable-books` | Researches the books on your shelf: what each does well and the opening it leaves you |
 | | `/validate-problem` | Scores your book's problem: painful, pervasive, priority now, and whether people pay to fix it |
 | Evidence | `/prep-interview Name` | Builds an interview plan aimed at the chapters that need evidence most |
-| | `/ingest-interview Name` | Saves the transcript, codes it by theme, feeds exact quotes into the chapters |
+| | `/ingest-interview Name` | Saves the transcript, codes it by theme, feeds exact quotes into the chapters (workshop recordings too) |
 | | `/ingest-source file` | Reads an article, report or PDF and feeds what's useful into the chapters |
 | | `/research-run` | Collects and codes what your readers say about the problem online |
 | | `/dictation-questions N` | Writes questions you answer out loud, the fastest way to get your own stories in |

@@ -1,6 +1,6 @@
 # Getting started
 
-Every click, from "I have Claude" to your first chapter brief. Plan on about 90 minutes, spread over a couple of sittings if you like.
+Every click, from "I have Claude" to your first chapter brief. Plan on 90 minutes to two hours, spread over a couple of sittings if you like.
 
 If you'd like to see the system working on a real book first, watch the [9-minute walkthrough](https://www.loom.com/share/5b2607352bca46a8b98e8dc09b9dde67).
 
@@ -42,13 +42,17 @@ My Book/
 └── .claude/               the shortcuts (skills) and checking agents
 ```
 
-## 4. Set up your book (30 min)
+## 4. Map and outline your book (40 min)
 
 1. In the Claude app, go to the **Code** tab and start a new session.
 2. When it asks for a folder, pick your **book folder** (not the whole vault). The shortcuts only load when Claude opens the folder that contains `.claude`.
-3. Type `/setup-book` and press Enter.
+3. Type `/mind-map` and press Enter.
 
-Claude interviews you one question at a time: the reader, the problem they haven't named, your framework, your proof, your chapter list, the problems readers run into. Take your time. The better defined your answers are, the better every chapter will be. At the end Claude shows you a summary and waits for your OK before it writes anything.
+Talk through everything you know about the book, in any order, typed or dictated: who it's for, the problem, the stories you keep telling, your framework, chapter ideas. Claude sorts it into branches, asks about the gaps, shows you the result and, once you say it's right, draws it as `01 Planning/Book Mind Map.canvas`. Open that file in Obsidian to see the whole book on one page.
+
+4. Type `/setup-book` and press Enter.
+
+Claude turns the map into your outline. It interviews you one question at a time for whatever the map didn't settle: the reader, the problem they haven't named, your framework, your proof, your chapter list, the problems readers run into. Take your time. The better defined your answers are, the better every chapter will be. At the end Claude shows you a summary and waits for your OK before it writes anything.
 
 ## 5. Capture your voice (20 min)
 
@@ -59,11 +63,13 @@ Claude studies the samples, asks you a few questions about how you sound, and bu
 
 ## 6. Add the visual layer (10 min)
 
-Obsidian already has **Graph view** (Cmd+G), the web of dots and lines. Two more pieces make the book easy to see.
+Obsidian already has **Graph view** (Cmd+G), the web of dots and lines. Three more pieces make the book easy to see.
 
 **The dashboard.** Open `Book Map.base`. It's built into Obsidian (a feature called Bases), so there's nothing to install. The tabs at the top show every chapter, chapters grouped by stage, every draft, every interview and every source.
 
-**The mind map.** ExcaliBrain shows one note in the middle and everything connected to it around it. It needs two helper plugins.
+**The Book Mind Map.** `/mind-map` drew it as an Obsidian Canvas, which is built in. Open `01 Planning/Book Mind Map.canvas` and drag the cards around as the book changes; when you run `/mind-map` again, Claude keeps your layout.
+
+**The connections view.** ExcaliBrain shows one note in the middle and everything connected to it around it. It needs two helper plugins.
 
 1. In Obsidian, open **Settings** (the gear, bottom left), then **Community plugins**.
 2. If you see Restricted mode, click **Turn on community plugins**.
@@ -88,6 +94,19 @@ Every session starts and ends the same way, so Claude always picks up exactly wh
 | Monthly | `/lint` | A health check of the whole folder |
 
 Then once a week, open the Book Map and look at what moved and what's stuck.
+
+## 8. Write or dictate the chapters
+
+With the outline in place, fill each chapter whichever way suits you, and mix them chapter by chapter.
+
+- **Write** your stories and arguments, save them to `Research/Author/` and run `/ingest-author N`.
+- **Dictate.** `/dictation-questions N` writes the questions only you can answer. Talk through them and run `/ingest-author N` on the recording.
+- **Interview** clients and peers: `/prep-interview Name`, the call, then `/ingest-interview Name`.
+- **Hold workshops.** Teach a part of the book live, record it, and run `/ingest-interview Workshop 1` on the transcript. How to run one is in `01 Planning/How We Write This Book.md`.
+
+## 9. The day you settle on a title, buy the domain
+
+Do it before the title appears anywhere public: a post, a podcast, a sign-up page. Once it's out, someone can register it first, and you end up with a second-best address for your book. Buy the exact title if you can, plus a short version, and set them to renew automatically. Claude reminds you when a title goes into `Decisions.md`. The author website can come later.
 
 ## When you get stuck
 
