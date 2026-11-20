@@ -22,9 +22,9 @@ tags: [book, control]
 
 ## A. Staging instead of stating (strong: act on one sighting)
 1. **Not X but Y.** Not just X, but Y; it's not X, it's Y; "This doesn't mean X. It means Y."; a clipped tail (", no guessing"). The negative half names something no one claimed, so the positive half sounds bigger. State the point. Keep the contrast only when the reader really holds the belief it corrects.
-2. **One-line closers and fragments.** A one-sentence paragraph that repeats the one before; "That matters."; "Read that again."; "Let that sink in."; a line after a story that names what it showed ("The lesson was clear:"); a row of fragments ("No plan. No system. No leads."). Cut it, or make it add a new fact or consequence.
+2. **One-line closers and fragments.** A one-sentence paragraph that repeats the one before; "That matters."; "Read that again."; "Let that sink in."; a line after a story that names what it showed ("The lesson was clear:"); a row of fragments ("No plan. No system. No leads."); a closing "Overall" or "Ultimately" sentence that restates the verdict the paragraph already gave. Cut it, or make it add a new fact or consequence.
 3. **Sayings that sound deep.** The real question is, at its core, what really matters, fundamentally, the heart of the matter, X is the currency of Y, X becomes a trap. Replace the saying with the specific claim.
-4. **Run-up before the point.** Let's dive in, let's break this down, here's what you need to know, now let's look at, without further ado, let's be honest, real talk. Remove the run-up and make the point. (See the voice override for starters the author really uses.)
+4. **Run-up before the point.** Let's dive in, let's break this down, here's what you need to know, now let's look at, without further ado, let's be honest, real talk; "the part" standing in for a named thing (the hard part is, the new part is that, the part that matters is, the part worth X). Remove the run-up and make the point, or name the thing. A literal part stays. (See the voice override for starters the author really uses.)
 5. **Arguing with no one.** To be clear, don't get me wrong, I'm not saying, this is not to say, you might think... but, a tempting approach would be. Remove the defense unless the reader actually holds that objection.
 
 ## B. Rhythm by rule
@@ -57,7 +57,7 @@ tags: [book, control]
 Left out from the humanizer: 21 (curly quotes; a typesetting choice, and changing them would break exact-quote matching) and 26 (writing for the wrong reader; it applies to replies, not chapters).
 
 ## Source and license
-Adapted from humanizer v3.1.0 by Siqi Chen (https://github.com/blader/humanizer), which draws on Wikipedia's "Signs of AI writing" (WikiProject AI Cleanup). Used under the MIT License:
+Adapted from humanizer v4.0.0 by Siqi Chen (first adapted from v3.1.0 on 2026-11-07; brought up to v4.0.0 on 2026-11-19, which added the "Overall" closer to 2 and "the part" to 4) (https://github.com/blader/humanizer), which draws on Wikipedia's "Signs of AI writing" (WikiProject AI Cleanup). Used under the MIT License:
 
 > MIT License
 > 
