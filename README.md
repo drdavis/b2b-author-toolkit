@@ -82,6 +82,7 @@ Type these in Claude's Code tab with your book folder open.
 | | `/draft N` | Drafts chapter N from its brief, in your voice |
 | | `/revise N notes` | Applies your notes as a new version; nothing is overwritten |
 | | `/check-chapter N` | An independent agent checks every quote, number and rule |
+| | `/humanizer` | Rewrites AI-sounding passages so they read like you, without changing what they say |
 | | `/bonus Name` | Plans or builds a reader bonus: an assessment, worksheet or checklist |
 | Run it | `/status` | Where the book stands and the single most useful next step |
 | | `/wrap` | Ends the session and updates the status pages and log |
@@ -98,7 +99,7 @@ These are built in, because a business book lives or dies on trust:
 - Nothing is invented. A missing story becomes `[STORY NEEDED]`, not a made-up client.
 - Raw material is never edited. Drafts are never overwritten.
 - Every statistic gets a date.
-- No AI slop. Every draft is checked against 24 AI writing tells (staged contrasts, one-line closers, stock words like "delve" and "crucial", dashes everywhere), and a scan flags the ones a script can find. The list is adapted from Siqi Chen's [humanizer](https://github.com/blader/humanizer) (MIT), which draws on Wikipedia's "Signs of AI writing".
+- No AI slop. Every draft is checked against 24 AI writing tells (staged contrasts, one-line closers, stock words like "delve" and "crucial", dashes everywhere), and a scan flags the ones a script can find. The list is adapted from Siqi Chen's [humanizer](https://github.com/blader/humanizer) v4.0.0 (MIT), which draws on Wikipedia's "Signs of AI writing". The humanizer skill itself is included too, unchanged with its license, as `/humanizer`, for rewriting whatever the check flags.
 
 ## About
 

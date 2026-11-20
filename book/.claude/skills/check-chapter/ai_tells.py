@@ -14,8 +14,9 @@ PATTERNS = [  # (label, to fix?, regex); ' also matches a curly apostrophe
     ("1 not X but Y", True, r"\bnot (just|only|merely)\b[^.]*\bbut\b|\bit'?s not\b[^.]*[,;:] it'?s\b|\b(doesn't|does not|isn't|is not) mean\b[^.]*\. it means\b|\b(didn't|doesn't|don't|isn't|wasn't) just\b"),
     ("2 closer", True, r"\b(read that again|let that sink in|that'?s the (real )?(win|point|lesson)[.:]|that (distinction )?matters\.)"),
     ("3 deep-sounding saying", True, r"\b(the real question is|at its core|what really matters|fundamentally|the heart of the matter|the deeper issue)\b"),
-    ("4 run-up", True, r"\b(let'?s dive in|let'?s explore|let'?s break (this|it) down|here'?s what you need to know|without further ado|real talk|let'?s be honest)\b"),
+    ("4 run-up", True, r"\b(let'?s dive in|let'?s explore|let'?s break (this|it) down|here'?s what you need to know|without further ado|real talk|let'?s be honest|the (hard|new) part is|the part (that matters|worth))\b"),
     ("5 arguing with no one", True, r"\b(to be clear|don'?t get me wrong|i'?m not saying|this is not to say|one might be tempted|a tempting approach)\b"),
+    ("2 closer (if it restates)", False, r"(?:^|(?<=[.?!] ))(overall|ultimately),"),
     ("8 dash", True, r"[—–]|\s--\s"),
     ("22 chatbot residue", True, r"\b(i hope this helps|great question|let me know if|would you like me to)\b|\bcertainly!"),
     ("rule: hype word", True, r"\b(unlock(s|ed|ing)?|transform(s|ed|ing|ative)?|elevat(e|es|ed|ing)|game[- ]changer|leverag(e|es|ed|ing))\b"),
@@ -86,6 +87,7 @@ def selftest():
         "This is a robust plan — mostly.",                       # 9
         "[STORY NEEDED: a crucial client]",                           # 10 marker
         "That's the point of view. She didn't just post. That's the point.",  # 11
+        "The hard part is time. Ultimately, it works. The part of the plan.",  # 12
     ])
     hits, starters = scan(sample)
     found = {(n, label) for n, label, _, _ in hits}
@@ -94,6 +96,7 @@ def selftest():
     assert (9, "8 dash") in found and (9, "12 AI word") in found, hits
     assert not [h for h in hits if h[0] in (2, 3, 5, 7, 8, 10)], hits
     assert starters == [8, 8, 8], starters
+    assert [h[1] for h in hits if h[0] == 12] == ["4 run-up", "2 closer (if it restates)"], hits
     assert [p.name for p in latest_fixture()] == ["Ch01 v10.md", "Ch02 v2.md"]
     print("selftest ok")
 
