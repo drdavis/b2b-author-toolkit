@@ -1,6 +1,6 @@
 ---
 name: quote-plan
-description: Build or refresh the Quote Plan so each chapter gets one key quote, one anchor and no more than three interview voices
+description: Build or refresh the Quote Plan so each chapter gets one key quote, one anchor and no more than three interview voices (step 6 of 7)
 disable-model-invocation: true
 ---
 

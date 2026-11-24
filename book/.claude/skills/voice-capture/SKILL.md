@@ -1,6 +1,6 @@
 ---
 name: voice-capture
-description: Study how the author writes and talks, then build their author-voice skill so every draft sounds like them
+description: Study how the author writes and talks, then build their author-voice skill so every draft sounds like them (step 3 of 7)
 disable-model-invocation: true
 ---
 

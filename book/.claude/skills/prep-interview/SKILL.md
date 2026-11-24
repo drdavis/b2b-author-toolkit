@@ -1,6 +1,6 @@
 ---
 name: prep-interview
-description: Prepare for a book interview so it fills the chapters that need evidence most
+description: Prepare for a book interview so it fills the chapters that need evidence most (step 4 of 7)
 argument-hint: "[person name] [what you know about them]"
 disable-model-invocation: true
 ---

@@ -28,14 +28,15 @@ Claude Code also keeps a memory file of its own, outside this folder, where it s
 
 A chat holds everything in Claude's working memory at once, and a book outgrows that fast. Every transcript, draft and note you paste in takes up room, and once it fills, Claude starts losing track of things from earlier in the conversation. The folder fixes that. Claude reads only what the job in front of it needs (one chapter's block in the Blueprint, the sections of one chapter note, the latest draft) and leaves the rest on disk until it's needed. That's why the shortcuts are so specific about what to read, and why one job per session matters.
 
-## Mind map, outline, then write or dictate
+## The seven steps
 
 ```mermaid
 flowchart LR
-  M["Mind map<br/>/mind-map"] --> O["Outline<br/>/setup-book"] --> W["Write or dictate<br/>each chapter"]
+  M["1 Mind map<br/>/mind-map"] --> O["2 Outline<br/>/setup-book"] --> D["3 First draft<br/>/draft"] --> I["4 Interview<br/>/ingest-interview"] --> R["5 Research<br/>/research-stats"] --> F["6 Refine<br/>/revise"] --> C["7 Check<br/>/check-chapter"]
+  F -. new material .-> I
 ```
 
-Most books start as a pile of ideas. `/mind-map` gets the pile onto one page first, as an Obsidian Canvas you can see and rearrange, with anything still unsettled marked as a question. `/setup-book` turns that page into the outline: the chapter notes, the Blueprint and the status table. Then each chapter gets filled by writing, dictating, interviewing or teaching it live in a workshop, and moves through the six layers below.
+Most books start as a pile of ideas. `/mind-map` gets the pile onto one page first, as an Obsidian Canvas you can see and rearrange, with anything still unsettled marked as a question. `/setup-book` turns that page into the outline: the chapter notes, the Blueprint and the status table. Each chapter then gets a first draft, by writing, dictating or teaching it live in a workshop, with gaps marked rather than invented. Interviews fill the gaps and test whether each chapter's idea holds up; research adds published numbers, each read at its source. One revision takes in both, and a final check matches every quote and number to its source. Steps 4 to 6 repeat as new material comes in, and each chapter moves through the six layers below.
 
 ## The six layers a chapter moves through
 

@@ -1,6 +1,6 @@
 ---
 name: check-chapter
-description: Independent check of a chapter draft against its sources and the writing rules
+description: Independent check of a chapter draft against its sources and the writing rules (step 7 of 7)
 argument-hint: "[chapter number]"
 disable-model-invocation: true
 ---

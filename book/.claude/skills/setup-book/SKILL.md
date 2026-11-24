@@ -1,10 +1,10 @@
 ---
 name: setup-book
-description: Turn the mind map into the outline. Interview the author about the book, then fill in CLAUDE.md, the Book Brief and one note per chapter
+description: Turn the mind map into the outline. Interview the author about the book, then fill in CLAUDE.md, the Book Brief and one note per chapter (step 2 of 7)
 disable-model-invocation: true
 ---
 
-Job: set this folder up for the author's book and write its outline. Run once, after `/mind-map`. The order is mind map, outline, then write or dictate the chapters.
+Job: set this folder up for the author's book and write its outline. Run once, after `/mind-map`. It is step 2 of the seven steps in `01 Planning/How We Write This Book.md`: mind map, outline, first draft, interview, research, refine, check.
 
 1. Read `CLAUDE.md`, `01 Planning/Book Brief.md`, `01 Planning/Chapter Template.md` and `01 Planning/How We Write This Book.md`. Also read `01 Planning/Book Mind Map.canvas` if it exists. If it doesn't, suggest running `/mind-map` first, and go ahead without it only if the author wants to.
 2. **Interview the author, one question at a time.** Wait for each answer before asking the next. Ask follow-ups when an answer is vague; a well-defined answer beats a fast one. Skip any question the mind map already answers clearly, and confirm those answers in the summary instead. Cover, in this order:

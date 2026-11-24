@@ -1,13 +1,13 @@
 ---
 name: mind-map
-description: Put the whole book on one page as an Obsidian Canvas, before the outline. The first step of mind map, outline, then write or dictate
+description: Put the whole book on one page as an Obsidian Canvas, before the outline. Step 1 of the seven steps
 argument-hint: "[optional: a file with your notes or dictation about the book]"
 disable-model-invocation: true
 ---
 
 Before anything else, read `00 Start Here.md`, `01 Planning/Decisions.md`, `01 Planning/Book Status.md` and the last five lines of `01 Planning/Session Log.md`. Follow every rule in CLAUDE.md. Do this one job only. Also read `01 Planning/Book Brief.md`, and `01 Planning/Book Mind Map.canvas` if it exists.
 
-Job: put the whole book on one page in `01 Planning/Book Mind Map.canvas`, so the author can see its shape before outlining it. The order this toolkit follows is mind map, then outline (`/setup-book` turns the map into chapters), then write or dictate the chapters. Run it again whenever the book changes shape.
+Job: put the whole book on one page in `01 Planning/Book Mind Map.canvas`, so the author can see its shape before outlining it. It is step 1 of the seven steps in `01 Planning/How We Write This Book.md`: mind map, outline (`/setup-book` turns the map into chapters), first draft, interview, research, refine, check. Run it again whenever the book changes shape.
 
 1. **Get everything out first.** If `$ARGUMENTS` names a file, read it. If the Book Brief and chapter notes are already filled in, start from them. Otherwise ask the author to talk through everything they know about the book, in any order, typed or dictated: who it's for, the problem, the stories they keep telling, the framework, chapter ideas, what they want a reader to do next. Don't impose structure yet.
 2. **Sort it into branches:** the title and promise in the center; who it's for and who it isn't; the problem the reader hasn't named; the framework; the proof (stories, clients, data, people to interview); the parts and chapters, each with its one idea in a sentence and the reader bonus or exercise it carries, if there is one; and what the book leads to for a reader who wants more.

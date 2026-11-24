@@ -21,7 +21,7 @@ The reality is, a business book is a project with a lot of moving parts: intervi
 Here's what you get:
 
 - **A book folder Claude reads every session.** It already knows your reader, your framework, your rules and where you left off. You explain it once.
-- **A mind map before the outline.** `/mind-map` puts the whole book on one page in Obsidian, so you see its shape before you commit to chapters. `/setup-book` then turns the map into your outline.
+- **Seven steps, in order.** `/mind-map` puts the whole book on one page in Obsidian, so you see its shape before you commit to chapters, and `/setup-book` turns the map into your outline. Then each chapter goes from first draft through interviews, research and refining to a final check, with a shortcut for every step.
 - **Your voice as a skill.** `/voice-capture` studies how you actually write and talk, then builds a voice profile Claude uses for every draft. You score it until it sounds like you.
 - **An evidence system.** Interviews, sources and online research get coded by theme and filed into the chapters they serve, with exact quotes and timestamps. A quote checker proves every quote matches its source.
 - **A writing pipeline.** Every chapter moves through the same layers: evidence, voice, brief, draft, revised, checked. One shortcut per step.
@@ -52,9 +52,17 @@ It isn't a ghostwriter. It won't write your book from a prompt. It organizes the
 
 The full walkthrough, with every click, is in **[docs/getting-started.md](docs/getting-started.md)**.
 
-## Mind map, outline, then write or dictate
+## The seven steps
 
-That's the order the toolkit follows. Map the whole book on one page, turn the map into an outline, then fill each chapter whichever way suits you: write it, dictate it, interview people for it, or teach it live in a workshop and bring the recording in. Some experts think best with an audience in front of them, and a few workshops, one per part of the book, can fill many of the gaps only you can fill.
+1. **Mind map** the whole book on one page.
+2. **Outline** it, one note per chapter.
+3. **Write a first draft** of each chapter: write it, dictate it, or teach it live in a workshop and bring the recording in. Gaps stay marked, never invented.
+4. **Interview** people who match your reader, to capture stories and exact quotes and to test whether each chapter's idea holds up.
+5. **Research quotes and statistics**, each one read at its source, with ready endnotes.
+6. **Refine** each chapter, taking in the interviews and the research in one revision.
+7. **Check** every quote against its source, every number for its date, and every page for AI-sounding writing.
+
+Interviews and research run side by side, and steps 4 to 6 repeat as new material comes in. Research comes before refining so one revision takes in both, and so a claim that doesn't hold up gets cut before you polish it. Some experts think best with an audience in front of them, and a few workshops, one per part of the book, can fill many of the gaps only you can fill.
 
 One thing not to put off: the day you settle on a title, buy the domain for it, before anyone hears the title in public. Once a title is out, someone can register it first, and you're left with a second-best address for your book. The author website can come later.
 
@@ -64,29 +72,30 @@ The details, including how to run a workshop, are in **[How We Write This Book](
 
 Type these in Claude's Code tab with your book folder open.
 
-| Stage | Shortcut | What it does |
+| Step | Shortcut | What it does |
 | --- | --- | --- |
-| Set up | `/mind-map` | Puts the whole book on one page, as an Obsidian Canvas, before the outline |
-| | `/setup-book` | Turns the map into your outline: interviews you for the rest, then writes your CLAUDE.md, Book Brief and one note per chapter |
-| | `/voice-capture` | Studies your writing and builds your `author-voice` skill |
+| 1. Mind map | `/mind-map` | Puts the whole book on one page, as an Obsidian Canvas, before the outline |
+| 2. Outline | `/setup-book` | Turns the map into your outline: interviews you for the rest, then writes your CLAUDE.md, Book Brief and one note per chapter |
 | | `/comparable-books` | Researches the books on your shelf: what each does well and the opening it leaves you |
 | | `/validate-problem` | Scores your book's problem: painful, pervasive, priority now, and whether people pay to fix it |
-| Evidence | `/prep-interview Name` | Builds an interview plan aimed at the chapters that need evidence most |
-| | `/ingest-interview Name` | Saves the transcript, codes it by theme, feeds exact quotes into the chapters (workshop recordings too) |
-| | `/ingest-source file` | Reads an article, report or PDF and feeds what's useful into the chapters |
-| | `/research-run` | Collects and codes what your readers say about the problem online |
+| 3. First draft | `/voice-capture` | Studies your writing and builds your `author-voice` skill |
 | | `/dictation-questions N` | Writes questions you answer out loud, the fastest way to get your own stories in |
 | | `/ingest-author N` | Files your own dictation or voice memos, so no idea gets lost |
-| | `/quote-plan` | Places one key quote, one anchor and at most three interview voices in each chapter |
-| Write | `/brief N` | A one-page plan for chapter N, checked against a quality gate |
+| | `/brief N` | A one-page plan for chapter N, checked against a quality gate |
 | | `/draft N` | Drafts chapter N from its brief, in your voice |
-| | `/revise N notes` | Applies your notes as a new version; nothing is overwritten |
-| | `/check-chapter N` | An independent agent checks every quote, number and rule |
+| 4. Interview | `/prep-interview Name` | Builds an interview plan aimed at the chapters that need evidence most |
+| | `/ingest-interview Name` | Saves the transcript, codes it by theme, feeds exact quotes into the chapters (workshop recordings too) |
+| 5. Research | `/research-stats` | Finds published statistics and studies, reads each at its source, and files them with ready endnotes |
+| | `/research-run` | Collects and codes what your readers say about the problem online |
+| | `/ingest-source file` | Reads an article, report or PDF and feeds what's useful into the chapters |
+| 6. Refine | `/quote-plan` | Places one key quote, one anchor and at most three interview voices in each chapter |
+| | `/revise N notes` | Applies your notes and the new material as a new version; nothing is overwritten |
+| 7. Check | `/check-chapter N` | An independent agent checks every quote, number and rule |
 | | `/humanizer` | Rewrites AI-sounding passages so they read like you, without changing what they say |
-| | `/bonus Name` | Plans or builds a reader bonus: an assessment, worksheet or checklist |
-| Run it | `/status` | Where the book stands and the single most useful next step |
+| Run it | `/status` | Where the book stands, which step each chapter is at, and the single most useful next step |
 | | `/wrap` | Ends the session and updates the status pages and log |
 | | `/lint` | Monthly health check: gaps, contradictions, loose ends |
+| | `/bonus Name` | Plans or builds a reader bonus: an assessment, worksheet or checklist |
 
 How the pieces fit together is in **[docs/how-it-works.md](docs/how-it-works.md)**.
 

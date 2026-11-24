@@ -7,13 +7,19 @@ tags: [book, control]
 
 The method every shortcut follows. Change it to fit your book, but change it here, so Claude and you are always working from the same page.
 
-## The order: mind map, outline, then write or dictate
+## The seven steps
 1. **Mind map.** `/mind-map` puts the whole book on one page in `Book Mind Map.canvas`: the promise, the reader, the problem, the framework, the proof and every chapter's one idea. You see the book's shape before you commit to it, and anything not yet settled shows up on the map as a question.
-2. **Outline.** `/setup-book` turns the map into the outline: one note per chapter, the Book Blueprint and the Book Status table.
-3. **Write or dictate the chapters.** Each chapter then moves through the layers below, filled whichever way suits you.
+2. **Chapter outline.** `/setup-book` turns the map into the outline: one note per chapter, the Book Blueprint and the Book Status table. `/comparable-books` and `/validate-problem` test the idea before you commit to chapters.
+3. **First draft.** Get a first version of each chapter down, whichever way suits you (below). `/voice-capture` first, so drafts sound like you; then `/brief N` and `/draft N`. Gaps stay as markers, never invented: `[STORY NEEDED: ...]`, `[INTERVIEW SLOT: ...]`, `[CHECK: ...]`.
+4. **Interview.** `/prep-interview Name`, the call, then `/ingest-interview Name`. Interviews capture stories and exact quotes that fit each chapter, and they test the book: if a chapter's idea doesn't hold for the people it's for, change the outline, not just the wording.
+5. **Research quotes and statistics.** `/research-stats` finds published numbers and studies, read at the source, with ready endnotes. `/research-run` collects what readers say online, and `/ingest-source` reads a report you already have. This fills the `[CHECK: ...]` markers; a claim no source supports is stated as your own experience.
+6. **Refine.** `/quote-plan` places the best quotes, then `/revise N` writes the next version with the interviews and research taken in at once. Nothing is overwritten.
+7. **Check.** `/check-chapter N` matches every quote to its source, dates every number and runs the AI-tells scan; `/humanizer` fixes what still sounds machine-made.
+
+Steps 4 and 5 run side by side, and steps 4 to 6 repeat as material arrives: draft before every interview is in, and refine when two or three new pieces have piled up. Research comes before refining so one revision takes in both, and so a claim that doesn't hold up gets cut before it's polished.
 
 ## Ways to get the words out
-Mix these chapter by chapter.
+For the first draft and beyond. Mix these chapter by chapter.
 
 - **Write.** Type your stories and arguments, save them to `Research/Author/` and run `/ingest-author N`.
 - **Dictate.** `/dictation-questions N` writes the questions only you can answer. Talk through them, save the recording or transcript to `Research/Author/` and run `/ingest-author N`. Most experts can talk through a story far faster than they can write it.

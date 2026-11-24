@@ -1,6 +1,6 @@
 ---
 name: draft
-description: Draft a chapter from its brief in the author's voice
+description: Draft a chapter from its brief in the author's voice (step 3 of 7)
 argument-hint: "[chapter number]"
 disable-model-invocation: true
 ---

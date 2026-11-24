@@ -95,14 +95,21 @@ Every session starts and ends the same way, so Claude always picks up exactly wh
 
 Then once a week, open the Book Map and look at what moved and what's stuck.
 
-## 8. Write or dictate the chapters
+## 8. Take each chapter through the seven steps
 
-With the outline in place, fill each chapter whichever way suits you, and mix them chapter by chapter.
+With the mind map and outline done (steps 1 and 2), each chapter goes through a first draft, interviews, research, refining and a final check. For the first draft, fill each chapter whichever way suits you, and mix them chapter by chapter.
 
 - **Write** your stories and arguments, save them to `Research/Author/` and run `/ingest-author N`.
 - **Dictate.** `/dictation-questions N` writes the questions only you can answer. Talk through them and run `/ingest-author N` on the recording.
 - **Interview** clients and peers: `/prep-interview Name`, the call, then `/ingest-interview Name`.
 - **Hold workshops.** Teach a part of the book live, record it, and run `/ingest-interview Workshop 1` on the transcript. How to run one is in `01 Planning/How We Write This Book.md`.
+
+Then, for each chapter:
+
+- **Interview** people who match your reader, to capture stories and test the chapter's idea: `/prep-interview Name`, the call, then `/ingest-interview Name`.
+- **Research quotes and statistics** with `/research-stats`: published numbers, each read at its source, with ready endnotes.
+- **Refine** with `/revise N`, taking in the interviews and research in one new version.
+- **Check** with `/check-chapter N` before you call the chapter done.
 
 ## 9. The day you settle on a title, buy the domain
 

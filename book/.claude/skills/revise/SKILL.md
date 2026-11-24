@@ -1,6 +1,6 @@
 ---
 name: revise
-description: Revise the latest chapter draft from the author's notes
+description: Revise the latest chapter draft from the author's notes (step 6 of 7)
 argument-hint: "[chapter number] [notes]"
 disable-model-invocation: true
 ---

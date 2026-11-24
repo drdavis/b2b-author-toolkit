@@ -1,6 +1,6 @@
 ---
 name: dictation-questions
-description: Write a question set the author answers out loud, so their own stories and arguments get into a chapter fast
+description: Write a question set the author answers out loud, so their own stories and arguments get into a chapter fast (step 3 of 7)
 argument-hint: "[chapter numbers, like 4 or 4 5]"
 disable-model-invocation: true
 ---
