@@ -1,6 +1,6 @@
 ---
 name: validate-problem
-description: Score the book's core problem against four tests (painful, pervasive, priority now, pay) from interview and online evidence
+description: Score the book's core problem against four tests (painful, pervasive, priority now, pay) from interview and online evidence (step 2 of 7)
 disable-model-invocation: true
 ---
 

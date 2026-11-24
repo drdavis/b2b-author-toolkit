@@ -1,6 +1,6 @@
 ---
 name: ingest-interview
-description: Bring an interview or workshop transcript into the book, code it by theme, and feed exact quotes into the chapter notes
+description: Bring an interview or workshop transcript into the book, code it by theme, and feed exact quotes into the chapter notes (step 4 of 7)
 argument-hint: "[person name, or workshop name]"
 disable-model-invocation: true
 ---

@@ -22,7 +22,7 @@ This folder is the working home of [Author name]'s book. Read this file before d
 - `02 Interviews/`: the Interview Guide, one `Prep - Name.md` before each interview, and one note per interview with its coded findings.
 - `Chapters/`: one note per chapter in the shape of `01 Planning/Chapter Template.md`. Drafts never go here.
 - `Drafts/`: `Ch01 v1.md`, `Ch01 v2.md`. Never overwrite an earlier version.
-- `Research/`: raw material, never edited. `Transcripts/` for interviews, `Author/` for the author's own dictation and samples, `Sources/` for articles, reports and books, `Online/` for Reddit, X and LinkedIn runs. `Quote Bank.md` holds the best lines.
+- `Research/`: raw material, never edited. `Transcripts/` for interviews, `Author/` for the author's own dictation and samples, `Sources/` for articles, reports and books, `Online/` for Reddit, X and LinkedIn runs, `Studies/` for published statistics and studies. `Quote Bank.md` holds the best lines.
 - `01 Planning/Parking Lot.md`: every idea that doesn't fit the current chapter, with where it belongs. Nothing the author says is dropped.
 
 ## Writing rules

@@ -1,6 +1,6 @@
 ---
 name: comparable-books
-description: Research the books already on the shelf, credit what each does well, and name the opening each leaves for this book's reader
+description: Research the books already on the shelf, credit what each does well, and name the opening each leaves for this book's reader (step 2 of 7)
 disable-model-invocation: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: research-run
-description: Collect and code what readers say about the problem online (Reddit, X, LinkedIn, communities)
+description: Collect and code what readers say about the problem online (Reddit, X, LinkedIn, communities) (step 5 of 7)
 argument-hint: "[optional: topic or chapter]"
 disable-model-invocation: true
 ---

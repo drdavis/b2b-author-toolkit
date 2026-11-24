@@ -1,6 +1,6 @@
 ---
 name: ingest-author
-description: Bring the author's own dictation, voice memo or recording into the book and file every idea where it belongs
+description: Bring the author's own dictation, voice memo or recording into the book and file every idea where it belongs (step 3 of 7)
 argument-hint: "[chapter number] [file name, or paste the text]"
 disable-model-invocation: true
 ---

@@ -1,6 +1,6 @@
 ---
 name: brief
-description: Write the one-page brief for a chapter from its evidence and the author's material
+description: Write the one-page brief for a chapter from its evidence and the author's material (step 3 of 7)
 argument-hint: "[chapter number]"
 disable-model-invocation: true
 ---

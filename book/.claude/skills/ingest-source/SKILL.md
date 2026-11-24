@@ -1,6 +1,6 @@
 ---
 name: ingest-source
-description: Read an article, report, PDF or book notes, write a source note, and feed what's useful into the chapter notes
+description: Read an article, report, PDF or book notes, write a source note, and feed what's useful into the chapter notes (step 5 of 7)
 argument-hint: "[file name in Research/Sources]"
 disable-model-invocation: true
 ---
